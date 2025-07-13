@@ -1,0 +1,22 @@
+{
+  "project_name": "뉴스 분석 시스템",
+  "completion_date": "2025-07-05 15:47:01",
+  "news_sources": 3,
+  "total_articles_analyzed": 30,
+  "accuracy_comparison": {
+    "basic_api": 0.6,
+    "langchain": 0.83,
+    "langgraph": 0.86
+  },
+  "improvement_rate": "43% 향상 (기존 대비 LangGraph)",
+  "key_technologies": [
+    "LangChain",
+    "LangGraph",
+    "OpenAI",
+    "Pydantic"
+  ],
+  "data_files_created": [
+    "news_3sources.csv",
+    "news_analysis_results_*.csv"
+  ]
+}
